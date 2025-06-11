@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Feira de Produtos do Campo</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #fafafa;
+      color: #333;
+    }
+
+    header {
+      background-color: #66bb6a;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #388e3c;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    main {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    h2 {
+      color: #2e7d32;
+    }
+
+    .produtos {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      margin-top: 20px;
+    }
+
+    .card {
+      background-color: white;
+      padding: 15px;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+
+    .card img {
+      max-width: 100%;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+
+    .card h3 {
+      margin-top: 10px;
+    }
+
+    .btn {
+      margin-top: 10px;
+      display: inline-block;
+      padding: 8px 15px;
+      background-color: #4caf50;
+      color: white;
+      border-radius: 5px;
+      text-decoration: none;
+    }
+
+    .btn:hover {
+      background-color: #388e3c;
+    }
+
+    footer {
+      background-color: #2e7d32;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Feira de Produtos do Campo</h1>
+    <p>Conectando produtores locais e consumidores conscientes</p>
+  </header>
+
+  <nav>
+    <a href="index.html">Início</a>
+    <a href="oficinas.html">Oficinas</a>
+    <a href="cultura.html">Cultura</a>
+    <a href="#contato">Contato</a>
+  </nav>
+
+  <main>
+    <h2>Conheça os Produtos</h2>
+    <p>A feira apresenta uma diversidade de produtos frescos, orgânicos e artesanais diretamente do campo para sua mesa.</p>
+
+    <div class="produtos">
+      <div class="card">
+        <img src="CESTAS-FRUTAS-E-FOLHAS.jpg" alt="Cesta de vegetais">
+        <h3>Cesta de Orgânicos</h3>
+        <p>Legumes e verduras frescos e sem agrotóxicos.</p>
+        <a href="cesta.html" class="btn">Saiba mais</a>
+      </div>
+
+      <div class="card">
+        <img src="1280-x-720-px-65-.png" alt="Queijos artesanais">
+        <h3>Queijos Artesanais</h3>
+        <p>Produzidos por pequenos produtores com receitas tradicionais.</p>
+        <a href="queijos.html" class="btn">Ver detalhes</a>
+      </div>
+
+      <div class="card">
+        <img src="images.jpeg" alt="Pães rústicos">
+        <h3>Pães e Bolos Caseiros</h3>
+        <p>Feitos com amor, perfeitos para o café da manhã.</p>
+        <a href="paes.html" class="btn">Explorar</a>
+      </div>
+
+      <div class="card">
+        <img src="17.png" alt="Mel e geleias">
+        <h3>Mel e Geleias</h3>
+        <p>Produtos naturais direto dos apiários e hortas.</p>
+        <a href="melgeleias.html" class="btn">Comprar</a>
+      </div>
+    </div>
+  </main>
+
+  <footer id="contato">
+    <p>Contato: conexaocampocidade@projeto.org | (99) 99999-9999</p>
+    <p>&copy; 2025 Projeto Agrinho</p>
+  </footer>
+</body>
+</html>
